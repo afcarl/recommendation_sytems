@@ -155,7 +155,8 @@ def fetch_bx_book_ratings(min_rating = 0,download_if_missing = True):
         # row, col = get_dimension(parse(main_data))
 
 def main():
-    a = fetch_bx_book_ratings(min_rating = 8)
+    a = fetch_bx_book_ratings(min_rating = 0)
+    print(a['train'])
 
 
 if __name__ == '__main__':
